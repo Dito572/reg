@@ -1,0 +1,176 @@
+@font-face {font-family: "FiraGO"; src: url("//db.onlinewebfonts.com/t/9b057572ee016725c6ffb9554036391d.eot"); src: url("//db.onlinewebfonts.com/t/9b057572ee016725c6ffb9554036391d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9b057572ee016725c6ffb9554036391d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9b057572ee016725c6ffb9554036391d.woff") format("woff"), url("//db.onlinewebfonts.com/t/9b057572ee016725c6ffb9554036391d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9b057572ee016725c6ffb9554036391d.svg#FiraGO") format("svg"); }
+*{
+	box-sizing: border-box;
+	font-size: 1em;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(/static/images/5098264-01\ 1.png) center no-repeat;
+	background-size: cover;
+	background-color: #F1F1F1;
+	font-size: 0.85rem;
+	font-family: 'FiraGO';
+
+
+}
+.container{
+	border-radius: 0.5em;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+	background-color: #fff;
+	display: block;
+	max-width: 20rem;
+
+	transform: translate(-50%, -50%);
+	padding: 2em;
+	position: absolute;
+		top: 50%;
+		left: 50%;
+		z-index: 1;
+}
+
+form button.submit{
+	cursor: pointer;
+	border: 1px solid #333;
+	line-height: 1em;
+	padding: 0.5em 0.5em;
+	border: none;
+	border-radius: 3rem;
+	width: 100%;
+	margin-top: 1rem;
+}
+form button.auth{
+	cursor: pointer;
+	border: 1px solid #333;
+	line-height: 1em;
+	padding: 0.5em 0.5em;
+	background: #FFFFFF;
+	/* gray/300 */
+	
+	border: 1px solid #D1D5DB;
+	/* shadow/sm */
+	
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 20px;
+	border-radius: 3rem;
+	width: 100%;
+}
+
+
+form label{
+	display: block;
+	font-size: 1.25em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s;
+}
+form label.col-one-half{
+	float: left;
+	width: 50%;
+}
+form label.col-one-half:nth-of-type(even){
+	border-left: 1px solid #fff;
+	padding-left: 0.25em;
+}
+form label input{
+	height: 1.5rem;
+	background: #FFFFFF;
+	border: 1px solid #D1D5DB;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 20px;	
+	font-family: 'FiraGO';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0.125em 0.25em;
+	width: 100%;
+	
+}
+form label input:focus{
+	outline: none;
+	border: 1px solid #14B8A6;	
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05), 0px 0px 0px 1px #14B8A6;
+	border-radius: 20px;
+}
+
+form label span.label-text{
+	display: block;
+	font-size: 0.5em;
+	font-weight: 400;
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s;
+}
+.tacbox a{
+	font-family: 'FiraGO';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1em;
+
+}
+.tacbox {
+    margin: -10px 8px;
+    font-size: 14px;
+  	display:flex;
+
+}
+
+form label.phone{position: relative;}
+form label.phone button.toggle-visibility{
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 0.75em;
+	line-height: 1em;
+	position: absolute;
+		top: 50%;
+		right: 0.5em;
+	text-align: center;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s;
+}
+form label.phone button.toggle-visibility:hover,
+form label.phone button.toggle-visibility:focus,
+form label.phone button.toggle-visibility:active{
+	color: #000;
+	outline: none;
+}
+h2 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #6B7280; 
+   line-height: 0.1em;
+   font-family: 'FiraGO';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   margin: 20px 0 20px; 
+} 
+
+h2 span { 
+    background:#fff; 
+	color: #6B7280;
+    padding:0 10px; 
+}
+h1{
+	font-size: 1.5em;
+	margin: 0 0 0.5em 0;
+	text-align: left;
+	font-family: 'FiraGO';
+}
+h1 img{
+	height: auto;
+	align-items: left;
+	width: 2.3rem;
+}
+html{
+	font-size: 1.5rem;
+	height: 100%;
+}
+

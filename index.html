@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                <a href="#">
+                    <img src="/static/images/Citycom logo 1.png" alt="cit-logo">
+                </a>
+            </h1>
+        </header>
+        <h1>შექმენი ანგარიში</h1>
+        <p style="color: #6B7280; font-weight: 400;font-size: 14px;
+        line-height: 20px;">ანგარიშის შესაქმნელად სულ რამონდენიმე ინფორმაცია არის საჭირო შენს შესახებ</p>
+        <form class="registration-form">
+            <label class="col-one-half">
+                <span class="label-text">სახელი</span>
+                <input type="text" name="firstName">
+            </label>
+            <label class="col-one-half">
+                <span class="label-text">გვარი</span>
+                <input type="text" name="lastName">
+            </label>
+            <label>
+                <span class="label-text">ელ-ფოსტა</span>
+                <input type="text" name="email">
+            </label>
+            <label class="phone">
+                <span class="label-text">ტელეფონის ნომერი</span>
+                <button class="toggle-visibility" title="toggle phone visibility" tabindex="-1">
+                    <span class="glyphicon glyphicon-eye-close"></span>
+                </button>
+                <input type="tel" name="phone">
+            </label>
+            <label class="phone">
+                <span class="label-text">ბარათის ნომერი</span>
+                <button class="toggle-visibility" title="toggle phone visibility" tabindex="-1">
+                    <span class="glyphicon glyphicon-eye-close"></span>
+                </button>
+                <input type="tel" name="phone">
+            </label>
+            <div class="tacbox">
+                <input id="checkbox" type="checkbox" checked="Checked" />
+                <label for="checkbox"> <a> ვეთანხმები</a> <a href="#" style="color: #14B8A6; text-decoration:none">წესებს და სამომხარებლო პოლიტიკას</a></label>
+              </div>
+            <div class="text-center">
+                <button class="submit" name="register" style="background-color:#14B8A6; color:#FFF">რეგისტრაცია</button>
+            </div>
+            <h2><span>თუ გაქვს ანგარიში</span></h2>
+            <div class="text-center">
+                <button class="auth" name="register" style="background-color:#FFF; color:#374151;">ავტორიზაცია</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
